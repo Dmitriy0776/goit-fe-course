@@ -24,16 +24,87 @@ img {
 .container {
     width: 1112px;
     margin: 0 auto;
-    background-color: #FFFFFF;
+    background-color: rgb(184, 120, 120);
 }
 
 .page-header {
-    width: 1112px;
-    display: inline-block;
+    padding: 20px;
+    outline: 2px solid brown;
+}
 
+.site-name {
+    float: left;
+    outline: 2px solid orange;
+}
+
+.menu-navigation {
+    outline: 2px red;
+    float: right;
+    width: 466px; 
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-navigation li {
+    float: left;
+}
+
+.products {
+    width: 1112px;
+    margin: 0 auto;
+}
+
+.products-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.product-list-item {
+    float: left;
+    width: 255px;
+    height: 323px;
+    background-color: #555252
+}
+
+.product-list-item:not(:nth-child(4n)) {
+    margin-right: 30px;
+}
+
+.product-list-item:not(:nth-last-child(-n+4)) {
+    margin-bottom: 30px;
+}
+
+.product-photo {
+    height: 283px;
+}
+
+.product-name {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 201px;
+    height: 40px;
+    background-color: #323232;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.product-price {
+    float: right;
+    padding: 0;
+    margin: 0;
+    width: 54px;
+    height: 40px;
+    background-color: #323232;
+    font-size: 18px;
+    color: #FFFFFF;
 }
 
 
+ 
 
 
 
@@ -46,10 +117,14 @@ img {
 
 
 
+ 
 
 
-
-
+.clearfix::after {
+    display: table;
+    content: '';
+    clear: both;
+}
 
 .visually-hidden:not(:focus):not(:active),
 input[type="checkbox"].visually-hidden {
