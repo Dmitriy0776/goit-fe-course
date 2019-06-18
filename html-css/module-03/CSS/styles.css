@@ -28,10 +28,6 @@ img {
     background-color: #FFFFFF;
 }
 
-.page-header {
- 
-}
-
 .page-nav {
     text-align: center;
 }
@@ -41,6 +37,7 @@ img {
     width: 574px;
     margin: 0;
     padding: 0;
+    font-size: 0;
     font-size: 12px;
     list-style: none;
     text-transform: uppercase;
@@ -54,26 +51,18 @@ img {
     line-height: 11px;
 }
 
-.site-navigation li:nth-child(3) {
-    margin-right: 95px;
-    margin-left: 103px;
-}
-
-.site-navigation li:nth-child(1) {
-    margin-right: 121px;
+.site-navigation li:not(:last-child){
+    margin-right: 60px;
 }
  
 .site-navigation a {
+    display: block;
     text-decoration: none;
 } 
 
 .site-navigation li:hover,
 .site-navigation li:focus {
     color: #03A9F4;
-}
-
-.article {
-
 }
 
 .article-list {
