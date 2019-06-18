@@ -23,17 +23,17 @@ img {
 }
 
 .container {
-    width: 1200px;
+    width: 900px;
     margin: 0 auto;
     background-color: #FFFFFF;
 }
 
 .page-header {
-    height: 190px;
+ 
 }
 
 .page-nav {
-    margin-left: 313px;
+    text-align: center;
 }
 
 .site-navigation {
@@ -73,23 +73,25 @@ img {
 }
 
 .article {
-    margin-left: 149px;
+
 }
 
 .article-list {
     list-style: none;
     margin: 0;
     padding: 0;
+    font-size: 0;
+    margin-bottom: 130px;
 }
 
 .article-list-item {
     display: inline-block;
-    width: 421px;
+    width: 420px;
     margin-bottom: 131px;
 }
 
 .article-list-item:not(:nth-child(2n)) {
-    margin-right: 58px;
+    margin-right: 60px;
 }
 
 .article-list-item:nth-last-child(-n + 2) {
@@ -97,39 +99,34 @@ img {
 }
 
 .photo-title {
-    margin-left: 2px;
-    margin-top: 31px;
     line-height: 11px;
     color: #B4AD9E;
-    text-transform: uppercase;    
+    text-transform: uppercase;
+    font-size: 12px;
+    margin: 0;
+    margin-bottom: 18px;    
 }
 
 .article-list-item h3 {
-    margin-top: 28px;
+    margin: 0;
     margin-bottom: 34px;
-    margin-left: 2px;
     color: #626262;
     font-size: 25px;
     font-weight: 400; 
 }
 
 .text {
-    margin-top: 34px;
-    margin-left: 1px;
-    margin-bottom: 0;
-    width: 414px;
-    height: 63px;
-    
+    margin: 0;
+    font-size: 14px;  
 }
 
 button {
-    margin-top: 53px;
-    margin-left: 380px;
-    margin-bottom: 70px;
     padding: 22px 34px 22px 35px;
     font-size: 17px;
     color: #626262;
     text-decoration: none;
+    display: block;
+    margin: 0 auto;
 }
 button:hover {
     color: #03A9F4;
