@@ -35,11 +35,8 @@ img {
 /* HEADER */
 
 .page-header {
-    padding: 0;
-    margin: 0;
-    margin-top: 38px;
-    margin-bottom: 32px;
-    height: 21px;
+    padding-top: 38px;
+    padding-bottom: 32px;
 }
 
 .page-nav {
@@ -64,7 +61,7 @@ img {
 
 .site-navigation {
     float: right;
-    width: 467px;
+    width: 477px;
     padding: 0;
     margin: 0;
     margin-top: 5px;
@@ -108,6 +105,7 @@ img {
 
 .site-navigation a {
     display: block;
+    font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     color: #0F0101;
     font-weight: bold;
@@ -193,7 +191,6 @@ img {
 /* SECTION_two_COLLECTION */
 
 .collection {
-    height: 678px;
     position: relative;
     margin: 0 auto;
     padding: 100px 0;
@@ -243,6 +240,8 @@ img {
     position: absolute;
     width: 201px;
     height: 40px;
+    line-height: 40px;
+    padding-left: 13px;
     margin: 0;
     bottom: 0;;
     left: 0;
@@ -257,6 +256,7 @@ img {
     position: absolute;
     width: 54px;
     height: 40px;
+    line-height: 40px;
     margin: 0;
     right: 0;
     bottom: 0;
@@ -358,85 +358,20 @@ img {
 
 /* FOOTER */
 
-.nav_rights {
-    position: relative;
-    padding: 0;
-    margin: 0 auto;
-    block-size: cover;
-    height: 88px;
+.footer {
+    padding-top: 38px;
+    padding-bottom: 38px;
     background-color: #323232;
 }
-
-.rights {
-    display: inline-block;
-    position: absolute;
-    left: 38%;
-    height: 17px;
-    width: 210px;
-    top: 25%;
+.footer__text {
+   text-align: center;
+   font-family: 'Open Sans', sans-serif;
+   color: #FFFFFF; 
+   margin: 0;
+   padding: 0; 
 }
 
-.rights::after {
-    display: block;
-    position: absolute;
-    top: 0%;
-    right: 3%;
-    margin: 0 auto;
-    width: 2px;
-    height: 17px;
-    background-color: #FFFFFF;
-    content: '';
-}
-
-
-.rights_text {
-    position: absolute;
-    left: 8%;
-    font-size: 14px;
-    color: #FEFEFE;
+.footer__link {
+    color: #46bfa9;
     text-decoration: none;
-    list-style: none;
 }
-
-.rights_link {
-    position: absolute;
-    right: 8%;
-    font-size: 14px;
-    color: #FEFEFE;
-    text-decoration: none;
-    list-style: none;
-}
-.designed {
-    display: inline-block;
-    position: absolute;
-    width: 182px;
-    height: 17px;
-    top: 25%;
-    right: 38%;
-}
-
-.designed_text {
-    position: absolute;
-    left: 8%;
-    font-size: 14px;
-    color: #FEFEFE;
-    text-decoration: none;
-    list-style: none;
-}
-
-.designed_link {
-    position: absolute;
-    right: 8%;
-    font-size: 14px;
-    color: #FEFEFE;
-    text-decoration: none;
-    list-style: none;
-}
-
-
-.rights_link:hover,
-.designed_link:hover {
-    color: #46BFA9;
-}
-
-
