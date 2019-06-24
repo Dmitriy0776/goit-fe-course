@@ -119,7 +119,7 @@ img {
 /* SECTION_first_TUOR */
 
 .tour {
-    background: url('../img/_photo-tours.jpg') no-repeat center;
+    background: url('../img/photo-tours.jpg') no-repeat center;
     block-size: cover;
     height: 600px;
     margin: 0;
