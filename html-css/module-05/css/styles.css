@@ -120,7 +120,7 @@ img {
 
 .tour {
     background: url('../img/photo-tours.jpg') no-repeat center;
-    block-size: cover;
+    background-size: cover;
     height: 600px;
     margin: 0;
     padding: 0;
