@@ -289,10 +289,8 @@ img {
     opacity: 1;
 }
 
-.icon_facebook:hover,
-.icon_twitte:hover,
-.icon_pinterest:hover,
-.icon_instagram:hover {
+.icon:hover,
+.icon:focus {
     background-color: #95E1D3;
 }
 
