@@ -57,6 +57,7 @@ img {
 }
 
 .site_navigation li {
+    display: block;
     position: relative;
     list-style: none;
     text-transform: uppercase;
@@ -81,8 +82,8 @@ img {
     transform: translateY(10px);
     transition: .3s ease-in-out;
 }
-.site_navigation li:hover a,
-.site_navigation li:focus a {
+.site_navigation a:hover ,
+.site_navigation a:focus  {
     color: #F38181;
     
 }
@@ -140,10 +141,6 @@ img {
     margin-bottom: 16px;
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
-}
-
-.list_text {
-
 }
 
 .service_list_item {
@@ -261,11 +258,13 @@ img {
 }
 
 .icon {
+    display: block;
     width: 56px;
     height: 56px;
     background-repeat: no-repeat;
     background-position: center;
     background-color: #fce38a;
+    transition: .3s ease-in-out;
 }
 
 .icon_facebook {
@@ -286,6 +285,7 @@ img {
 }
 
 .team_item:hover .overlay  {
+    transition: opacity .5s linear;
     opacity: 1;
 }
 
