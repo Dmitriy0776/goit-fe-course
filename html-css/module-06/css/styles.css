@@ -85,7 +85,7 @@ img {
 .site_navigation a:hover ,
 .site_navigation a:focus  {
     color: #F38181;
-    
+
 }
 
 .site_navigation li:hover::after {
@@ -251,6 +251,7 @@ img {
     opacity: 0;
     background-image: linear-gradient(rgba(240, 153, 133, 0.8392156862745098), rgba(241, 211, 138, 0.88));
     transform: translate(-10px, -10px);
+    box-shadow: 10px 10px 0 0 #95e1d3;
 }
 
 .social_icons {
