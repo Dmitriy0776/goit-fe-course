@@ -1,0 +1,70 @@
+@media (min-width: 768px) {
+    .container {
+        padding: 0 50px;
+    }
+    
+    .page_nav{
+        margin-bottom: 153px;
+    }
+
+    .button_enter {
+        margin-bottom: 0;
+        display: flex;
+    }
+
+    .header {
+        padding-top: 38px;
+        padding-bottom: 234px;
+    }
+
+    .headline {
+        font-size: 52px;
+        margin-bottom: 36px;
+        padding: 0 80px;
+        align-items: center;
+    }
+
+    .text {
+        font-size: 24px;
+        margin-bottom: 34px;
+    }
+
+    .section_partners {
+        padding-top: 72px;
+        padding-bottom: 40px;
+    }
+
+    .section_text {
+        margin-bottom: 14px;
+    }
+
+   
+
+    .about_partner {
+        width: 220px;
+        margin-top: 18px;
+        margin-bottom: 39px;
+    }
+}
+
+@media (min-width: 940px) {
+    .container {
+        max-width: 940px;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .headline {
+        padding: 0 200px;
+    }
+
+    .partners_list {
+        max-width: 940px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .about_partner {
+        margin-bottom: 39px;
+    }
+}
