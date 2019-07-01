@@ -154,15 +154,15 @@ img {
     right: 0;
 } 
 
-.about_partner:nth-of-type(2) .foto_partners::after {
+.partner:nth-of-type(2) .foto_partners::after {
     content: url(../img/icon/icon-foto-team-2.png);
 }
 
-.about_partner:nth-of-type(3) .foto_partners::after {
+.partner:nth-of-type(3) .foto_partners::after {
     content: url(../img/icon/icon-foto-team-3.png);
 }
 
-.about_partner:nth-of-type(4) .foto_partners::after {
+.partner:nth-of-type(4) .foto_partners::after {
     content: url(../img/icon/icon-foto-team-4.png);
 } 
 
